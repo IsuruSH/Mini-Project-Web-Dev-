@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Oswald&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color:#EEEEEE ;
+    background: transparent;
+}
+
+.nav_links li a{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: #EEEEEE;
+    font-size: 16px;
+    text-decoration: none;
+    
+}
+.header, .nav_links li a, .nav_links, .nav_links li {
+    background-color: #1c2331;
+}
+.logo{
+    padding: 0;
+    margin: 0;
+}
+
+#Search{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    background: transparent;
+    flex: 1;
+    border: 0;
+    outline: none;
+    text-align: center;
+    font-size: 16px;
+    color: #808080;
+    
+}
+
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover{
+    color: gray;
+}
+
+.nav_links{
+    list-style: none;
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+}
+
+.search-bar{
+    height: 30px;
+    background: rgba(255, 255, 255, 0.7);
+    display: flex;
+    align-items: center;
+    border-radius: 60px; 
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.animation_sec {
+    display: flex;
+    background: url(/Images/5039684.jpg);
+    background-image: linear-gradient(to right, rgba(15  , 25, 32, 0.97), rgba(126, 81, 74, 0.7)), url(/Images/5039684.jpg);
+    background-image: linear-gradient(angle, color-stop1, color-stop2);
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 0;
+    color: white;
+    
+
+}
+
+.animation_sec .max-width {
+    width: 100%;
+    display: flex;
+    margin: auto 0 auto 0;
+    background: none;
+  }
+
+.animation-content ,div,a{
+    background: none;
+}
+.canva{
+    /* position: relative; */
+    width: 100%;
+}
+#canvas{
+
+    /* width: 1500px; */
+    width: 100%;
+    display: inline-block;
+    background: transparent;
+    margin-top: 0;
+    height: 100%;
+}
+
+
+/* Carousel style */
+
+.wrapper{
+    /* text-align: center; */
+    width: 100%;
+    margin: 50px 50px 0 0;
+    position: absolute;
+}
+
+.wrapper .carousel{
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 30px;
+}
+.owl-carousel {
+    display: flex;
+    overflow: hidden;
+  }
+  
+
+
+.slides_1 {
+    width: 50%;
+    float: left;
+    margin-left: 100px;
+    
+    
+}
+
+.slides{
+    display: inline-flexbox;
+    width: 100%;
+    height: auto;
+    padding-left: 100px;
+    
+}
+.slides img{
+    height: 454px;
+    max-width: 454px;
+    opacity: 0.8;
+    
+    
+}
+.slides img{
+    height: 454px;
+    max-width: 454px;
+    opacity: 0.8;
+    width: 30%;
+    
+}
+
+.slides_1 h1{
+    font-weight: 500;
+    margin-top: 50%;
+    margin-bottom: 10px;
+    font-size: 65px;
+    font-family: Helvetica, Arial,  sans-serif;
+    color: rgba(227, 227, 227, 0.908);
+}
+
+.slides_1 p{
+    font-size: large;
+    font-weight: 700;
+    color: #912D4C;
+}
+
+.owl-carousel .owl-nav{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+}
+.owl-carousel .owl-nav .owl-prev,
+.owl-carousel .owl-nav .owl-next{
+    position: absolute;
+    margin-top: -10px;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+
+}
+
+.owl-carousel .owl-nav .owl-prev:hover,
+.owl-carousel .owl-nav .owl-prev:focus,
+.owl-carousel .owl-nav .owl-prev:active,
+.owl-carousel .owl-nav .owl-next:hover,
+.owl-carousel .owl-nav .owl-next:focus,
+.owl-carousel .owl-nav .owl-next:active{
+    outline: none;
+}
+
+.owl-carousel .owl-nav .owl-prev span:after,
+.owl-carousel .owl-nav .owl-next span:after{
+    font-size: 40px;
+}
+.owl-carousel .owl-nav .owl-prev{
+    left: 30px !important;
+}
+.owl-carousel .owl-nav .owl-next{
+    right: 30px !important;
+}
+
+
+/* Heading */
+
+.heading{
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    margin: 30px;
+    
+}
+.heading h2{
+    text-shadow: 5px 3px 7px #808080;
+}
+
+/* Card styling */
+
+.card{
+    text-align: center;
+    background-color: rgba(19, 19, 19,1);
+    position: absolute;
+    transition: all 0.3s;
+    
+}
+
+.card:hover{
+    transform: scaleY(1.1);
+    
+    
+}
+
+.card-img{   
+    transform: scale(1.25);
+    object-fit: cover;  
+    opacity: 0.9; 
+}
+
+.card-title{
+    font-family: 'Oswald', sans-serif;
+    margin-top: 40%;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-size: 2vw;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    
+}
+
+#cardbtn{
+    background-color: #912D4C;
+    border: none;
+    transition-property: all ;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+
+}
+
+/* bank carousel */
+.bank_carousel{
+    margin-top: 50px ;
+    margin-bottom: 20px;
+    
+}
+
