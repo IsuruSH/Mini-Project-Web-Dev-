@@ -134,7 +134,7 @@ $(document).ready(function() {
       margin: 100,
       nav: true,
       dots: true,
-      autoplay: true,
+      autoplay: false,
       autoplayTimeout: 4000,
       autoplayHoverPause: true,
       slideSpeed : 300,
@@ -147,10 +147,6 @@ $(document).ready(function() {
       itemsDesktopSmall : false,
       itemsTablet: false,
       itemsMobile : false,
-
-    //   navText: ["<span class='fa fa-chevron-left'></span>", "<span class='fa fa-chevron-right'></span>"],
-    //   navContainer: '.custom-nav',
-    //   navClass: ['owl-prev', 'owl-next']
       
     });
   });
