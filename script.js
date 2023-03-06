@@ -134,7 +134,7 @@ $(document).ready(function() {
       margin: 100,
       nav: true,
       dots: true,
-      autoplay: false,
+      autoplay: true,
       autoplayTimeout: 4000,
       autoplayHoverPause: true,
       slideSpeed : 300,
